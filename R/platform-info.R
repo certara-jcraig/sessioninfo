@@ -30,6 +30,7 @@ platform_info <- function() {
     version = R.version.string,
     os = os_name(),
     system = version$system,
+    hostname = Sys.info()[["nodename"]],
     ui = .Platform$GUI,
     language = Sys.getenv("LANGUAGE", "(EN)"),
     collate = Sys.getlocale("LC_COLLATE"),
