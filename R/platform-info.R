@@ -5,6 +5,7 @@
 #'   * `version`: the R version string.
 #'   * `os`: the OS name in human readable format, see [os_name()].
 #'   * `system`: CPU, and machine readable OS name, separated by a comma.
+#'   * `hostname`: the network name of the machine, see [Sys.info()].
 #'   * `ui`: the user interface, e.g. `Rgui`, `RTerm`, etc. see `GUI`
 #'     in [base::.Platform].
 #'   * `language`: The current language setting. The `LANGUAGE` environment

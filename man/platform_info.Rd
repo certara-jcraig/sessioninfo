@@ -12,6 +12,7 @@ A list with elements:
 \item \code{version}: the R version string.
 \item \code{os}: the OS name in human readable format, see \code{\link[=os_name]{os_name()}}.
 \item \code{system}: CPU, and machine readable OS name, separated by a comma.
+\item \code{hostname}: the network name of the machine, see \code{\link[=Sys.info]{Sys.info()}}.
 \item \code{ui}: the user interface, e.g. \code{Rgui}, \code{RTerm}, etc. see \code{GUI}
 in \link[base:Platform]{base::.Platform}.
 \item \code{language}: The current language setting. The \code{LANGUAGE} environment
@@ -22,6 +23,7 @@ variable, if set, or \code{(EN)} if unset.
 \item \code{date}: The current date.
 \item \code{rstudio}: RStudio format string, only added in RStudio.
 \item \code{pandoc}: pandoc version and path
+\item \code{quarto}: quarto version and path
 }
 }
 \description{
